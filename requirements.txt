@@ -1,0 +1,18 @@
+tensorflow==2.10.1      # Last Windows version with  GPU support
+numpy==1.23.5
+pandas
+scikit-learn
+matplotlib==3.7.1
+nbformat>=4.2.0
+seaborn
+plotly
+Pillow
+opencv-python
+ipython
+transformers 
+ultralytics
+
+tqdm
+keras-tuner
+# conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0     # cuda drivers for tensorflow
+# conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia  # unused in the final modeling
